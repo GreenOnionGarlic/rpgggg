@@ -474,6 +474,10 @@ MonoBehaviour:
   wallCheck: {fileID: 884092683}
   wallCheckDistance: 0.8
   moveSpeed: 1
+  playerCheckDistance: 4
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!50 &544056314
 Rigidbody2D:
   serializedVersion: 4
@@ -709,7 +713,7 @@ GameObject:
   - component: {fileID: 1143070511}
   - component: {fileID: 1143070514}
   - component: {fileID: 1143070515}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
